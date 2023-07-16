@@ -1,0 +1,47 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    background-color: #f1f1f1;
+}
+
+.ant-btn-primary {
+    background-color: #1677ff;
+    box-shadow: 0 2px 0 rgba(5, 145, 255, .1);
+}
+
+.ant-switch {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.hide-scrollbar {
+    -ms-overflow-style: none !important;
+    scrollbar-width: none !important;
+    -webkit-scrollbar: none !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1.5rem .5rem rgba(0, 0, 0, .075) !important;
+}
+
+.ant-modal-close-x .anticon {
+    vertical-align: middle !important;
+}
+
+.ant-select-selector {
+    background: #f5f8fa !important;
+    color: rgb(55, 65, 81) !important;
+    font-size: 0.875rem !important;
+}
+
+.ant-result-icon,
+.ant-result-extra {
+    display: flex;
+    justify-content: center;
+}
